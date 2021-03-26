@@ -18,12 +18,22 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Merriweather Sans", "sans-serif"],
-        serif: ["Merriweather", "serif"],
+        sans: ["interstate-condensed", "sans-serif"],
       },
+      backgroundImage: (theme) => ({
+        "monza-matisse":
+          "linear-gradient(90deg, rgba(214,15,14,1) 0%, rgba(214,15,14,1) 50%, rgba(19,115,160,1) 50%);",
+        smooth:
+          "linear-gradient(to bottom, transparent, cubic-bezier(0.48, 0.3, 0.64, 1), black)",
+      }),
       colors: {
-        socialist: "#EF4839",
-        merino: "#F7F2EA",
+        citrane: "#FBF4E3",
+        monza: "#D60F0E",
+        matisse: "#1373A0",
+        plum: "#9F409A",
+      },
+      lineHeight: {
+        comfortable: "1.5",
       },
     },
   },
