@@ -245,6 +245,10 @@
     },
   ];
 
+  questions = questions.map((q) => {
+    return { answers: q.answers.sort(() => 0.5 - Math.random()), ...q };
+  });
+
   let score = false;
   let answeredCount = 0;
   let result = null;
