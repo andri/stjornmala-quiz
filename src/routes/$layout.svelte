@@ -4,249 +4,18 @@
 
 <script>
   import "../global.css";
-  const results = {
-    kommunisti: {
-      tag: "kommunisti",
-      image: "lenin.png",
-      bg: "bg-monza",
-      youAre: "Þú ert kommúnisti",
-      youShould:
-        "Ef Alþýðufylkingin býður sig ekki fram verðurðu að sætta þig við Sósíalistaflokkinn. Ef svo ólíklega vill til að þú mætir á kjörstað. Hverju breyta kosningar?",
-    },
-    "rottaekur-sosialisti": {
-      tag: "rottaekur-sosialisti",
-      image: "rosa.png",
-      bg: "bg-monza",
-      youAre: "Þú ert róttækur sósíalisti",
-      youShould:
-        "Þú hefur loksins flokk sem þú getur kosið í þingkosningum, Sósíalistaflokk Íslands, þótt baráttan fari auðvitað fram í verkalýðshreyfingunni og öðrum baráttusamtökum alþýðunnar.",
-    },
-    sosialisti: {
-      tag: "sosialisti",
-      image: "aoc.png",
-      bg: "bg-monza",
-      youAre: "Þú ert sósíalisti",
-      youShould:
-        "Og það er til flokkur sem er skýrður eftir þér; Sósíalistaflokkur Íslands. Þú ert fyrir hann og hann er fyrir þig.",
-    },
-    "vinstri-krati": {
-      tag: "vinstri-krati",
-      image: "palme.png",
-      bg: "bg-monza",
-      youAre: "Þú ert vinstri krati ",
-      youShould:
-        "Þú ættir að kjósa VG ef þú getur fyrirgefið þeim stjórnarsamstarfið við Sjálfstæðisflokkinn. Eða Samfylkinguna ef þú getur fyrirgefið þeim nýfrjálshyggjuna. Annars getur þú refsað þessum flokkum og kosið Sósíalistaflokkinn.",
-    },
-    "midju-krati": {
-      tag: "midju-krati",
-      image: "warren.png",
-      bg: "bg-plum",
-      youAre: "Þú ert miðju-krati ",
-      youShould:
-        "Þú hefur úr ýmsu að velja í næstu kosningum. Kannski er Framsókn eitthvað fyrir þig? Eða Píratar? Hvað með Flokk fólksins?",
-    },
-    "haegri-krati": {
-      tag: "haegri-krati",
-      image: "blair.png",
-      bg: "bg-matisse",
-      youAre: "Þú ert hægri krati",
-      youShould: "Og Viðreisn er þinn flokkur,",
-    },
-    kapitalisti: {
-      tag: "kapitalisti",
-      image: "thatcher.png",
-      bg: "bg-matisse",
-      youAre: "Þú ert kapítalisti",
-      youShould:
-        "Þú getur valið úr þeim flokkum sem vilja alls ekki skerða völd auðvaldsins: Sjálfstæðisflokkur eða Miðflokkur, hvorn viltu?",
-    },
-    "sotsvartur-kapitalisti": {
-      tag: "sotsvartur-kapitalisti",
-      image: "rand.png",
-      bg: "bg-black",
-      youAre: "Þú ert sótsvartur kapítalisti",
-      youShould:
-        "Þú ert á móti ríkisvaldinu, nema þá sem her og löggu til að verja auðvaldið. Þú átt engan stjórnmálaflokk en verður að sætta þig við Sjálfstæðisflokkinn þar til Frjálshyggjufélagið fer í framboð.",
-    },
-  };
+  import questions from "../lib/questions";
+  import results from "../lib/results";
 
-  let questions = [
-    {
-      question: "Hvað finnst þér um einkarekin fyrirtæki?",
-      answers: [
-        "Þau eru hið illa",
-        "Stórfyrirtæki eru slæm, lítil fjölskyldufyrirtæki, smáfyrirtæki og einyrkjar sleppa",
-        "Sum fyrirtæki eru góð, önnur ekki",
-        "Einkarekin fyrirtæki eru grunnur alls",
-      ],
-      answer: null,
-    },
-    {
-      question: "Hvað fær þig til að fara í kröfugöngu?",
-      answers: [
-        "Krefjast þess að kapítalisminn verði brotinn niður",
-        "Krefjast hækkun lægstu launa",
-        "Krefjast jafnra launa kynjanna",
-        "Krefjast þess að áfengi sé selt í matvörubúðum",
-      ],
-      answer: null,
-    },
-    {
-      question: "Ætti starfsfólk að eiga fulltrúa í stjórnum fyrirtækja?",
-      answers: [
-        "Fyrirtæki ættu að vera undir fullri stjórn starfsfólksins",
-        "Já, starfsfólk ætti í það minnsta að eiga tvo af fimm stjórnarmönnum",
-        "Tja, þetta er falleg hugmynd en myndi kannski ekki virka í öllum fyrirtækjum",
-        "Nei, aðeins hluthafar eiga að hafa fulltrúa í stjórn",
-      ],
-      answer: null,
-    },
-    {
-      question: "Hvað finnst þér um verkalýðsfélög?",
-      answers: [
-        "Þau verða óþörf þegar alþýðan hefur náð völdum",
-        "Þau eru mikilvægustu baráttutæki alþýðunnar",
-        "Þau eru mikilvæg í kjaraviðræðum en ættu að láta kjörna fulltrúa um að marka stefnu fyrir ríkisvaldið",
-        "Tímaskekkja, hver starfsmaður á að semja sjálfur um kaup og kjör",
-      ],
-      answer: null,
-    },
-    {
-      question: "Hvernig sérðu heilbrigðiskerfið fyrir þér?",
-      answers: [
-        "Heilbrigðisþjónusta undir stjórn alþýðunnar",
-        "Gjaldfrjáls opinber heilbrigðisþjónusta",
-        "Hófleg gjaldtaka í blönduðu kerfi þar sem kostir opinbers rekstur og einkareksturs vinna saman",
-        "Einkarekin heilbrigðisfyrirtæki og tryggingafélög",
-      ],
-      answer: null,
-    },
-    {
-      question: "Nefndu dæmi um mistök sósíalismans.",
-      answers: [
-        "Alls staðar þar sem hann leiddi ekki til kommúnisma",
-        "Þegar hann gafst upp fyrir nýfrjálshyggjunni um 1980",
-        "Þar sem vernd starfsfólks er orðin svo mikil að fyrirtæki óttast að ráða fólk",
-        "Venesúela",
-      ],
-      answer: null,
-    },
-    {
-      question:
-        "Nefndu fyrirbrigði sem fólk fattar ekki að er sósíalísk í grunninn.",
-      answers: [
-        "Kirkjan",
-        "Þjóðvegir, holræsi",
-        "Heilbrigðiskerfið, almannatryggingar",
-        "Tekjuskattur",
-      ],
-      answer: null,
-    },
-    {
-      question: "Hvað finnst þér vera vanmetnustu hetjur Íslandssögunnar",
-      answers: [
-        "Þrælarnir sem drápu Hjörleif",
-        "Verkafólkið sem stofnaði fyrstu verkalýðsfélögin",
-        "Sigríður í Brattholti",
-        "Björgólfur Thor Björgólfsson",
-      ],
-      answer: null,
-    },
-    {
-      question: "Hvað keyrir áfram hagkerfið?",
-      answers: [
-        "Verkafólk",
-        "Verkafólk, hið opinbera og fyrirtæki",
-        "Fyrirtæki og ríkisvaldið",
-        "Fyrirtæki",
-      ],
-      answer: null,
-    },
-    {
-      question: "Hvað er góð ástæða fyrir stríði?",
-      answers: [
-        "Hjálpa alþýðunni við að varpa af sér oki valdastéttanna",
-        "Verjast innrás",
-        "Aðstoða lönd sem ráðist er á",
-        "Ráðast á lönd sem eiga auðlindir sem þig vantar",
-      ],
-      answer: null,
-    },
-    {
-      question: "Hver ættu lágmarks mánaðarlaun að vera?",
-      answers: [
-        "Um 750 þús. kr.",
-        "Um 450 þús. kr.",
-        "Um 350 þús. kr.",
-        "Það á ekki að vera neitt lágmark, laun ráðast á markaði",
-      ],
-      answer: null,
-    },
-    {
-      question: "Hver er mesta pólitíska ógnin í dag?",
-      answers: [
-        "Kapítalisminn",
-        "Nýfrjálshyggjan",
-        "Popúlisminn",
-        "Sósíalisminn",
-      ],
-      answer: null,
-    },
-    {
-      question: "Hverjum ættir þú aldrei að treysta?",
-      answers: ["Fyrirtækjum", "Fasistum", "Kommúnistum", "Góða fólkinu"],
-      answer: null,
-    },
-    {
-      question: "Hver er megin ástæðan fyrir vaxandi ójöfnuði?",
-      answers: [
-        "Kapítalísk fyrirtæki",
-        "Veiking verkalýðsfélaga",
-        "Róbótavæðing",
-        "Vaxandi leti",
-      ],
-      answer: null,
-    },
-    {
-      question: "Ef þú mættir setja lög á morgun, hver væru þau?",
-      answers: [
-        "Leggja niður ríkisvaldið",
-        "Banna launagreiðslur sem væru meira en tvöfalt hærri en lágmarkslaun",
-        "Setja á kolefnisskatt",
-        "Loka Samkeppniseftirlitinu",
-      ],
-      answer: null,
-    },
-    {
-      question: "Hvernig bíl langar þig í?",
-      answers: [
-        "Engan, ég hef ekki trú á bílum",
-        "Almennilegan strætó",
-        "Volvo twin-jeppa",
-        "Tesla. Og Land Cruiser ef ég þarf að fara á fjöll",
-      ],
-      answer: null,
-    },
-    {
-      question: "Ef þú leiddir ríkisstjórn hvert væri helsta markmið hennar?",
-      answers: [
-        "Segja af sér til að flýta fyrir endalokum kapitalismans",
-        "Byggja upp velferðarkerfi og innviði samfélagsins",
-        "Ráðast að loftslagsvánni",
-        "Undirbúa nýlendu á Mars",
-      ],
-      answer: null,
-    },
-    {
-      question:
-        "Hvað finnst þér eðlilegur hátekjuskattur á mánaðartekjur yfir 10 milljónir?",
-      answers: ["100% – enginn á að hafa svo háar tekjur", "90%", "50%", "22%"],
-      answer: null,
-    },
-  ];
-
-  questions = questions.map((q) => {
-    return { answers: q.answers.sort(() => 0.5 - Math.random()), ...q };
+  let _questions = questions.map(({ answers, ...question }) => {
+    return {
+      answers: answers
+        .map((a, i) => {
+          return [a, i];
+        })
+        .sort(() => 0.5 - Math.random()),
+      ...question,
+    };
   });
 
   let score = false;
@@ -254,39 +23,39 @@
   let result = null;
   let showResult = false;
 
-  $: answeredCount = questions.filter((q) => {
+  $: answeredCount = _questions.filter((q) => {
     return q.answer !== null;
   }).length;
 
   $: if (
-    questions.every((q) => {
+    _questions.every((q) => {
       return q.answer !== null;
     })
   ) {
     score =
-      questions
+      _questions
         .map((q) => {
           return q.answer;
         })
         .reduce((a, b) => {
           return a + b;
         }, 0) /
-      (questions.length * 3);
+      (_questions.length * 3);
     score = (1 - score) * 100;
 
-    if (score >= 87.5) {
+    if (score >= 88) {
       result = results["kommunisti"];
-    } else if (score >= 75) {
+    } else if (score >= 71.5) {
       result = results["rottaekur-sosialisti"];
-    } else if (score >= 62.5) {
+    } else if (score >= 55.0) {
       result = results["sosialisti"];
-    } else if (score >= 50) {
+    } else if (score >= 43.75) {
       result = results["vinstri-krati"];
-    } else if (score >= 37.5) {
+    } else if (score >= 32.5) {
       result = results["midju-krati"];
-    } else if (score >= 25) {
+    } else if (score >= 21.25) {
       result = results["haegri-krati"];
-    } else if (score >= 12.5) {
+    } else if (score >= 10.63) {
       result = results["kapitalisti"];
     } else if (score >= 0) {
       result = results["sotsvartur-kapitalisti"];
@@ -294,7 +63,7 @@
   }
 
   const setAnswer = (qIndex, aIndex) => {
-    questions[qIndex].answer = aIndex;
+    _questions[qIndex].answer = aIndex;
   };
 </script>
 
@@ -310,7 +79,7 @@
       <div class={`absolute w-full h-1/2 ${result.bg}`}>
         <img
           src={`/${result.image}`}
-          alt="Lenín"
+          alt="Stjórnmálamaður"
           class="w-56 absolute bottom-0 block z-20 left-1/2 -m-28 mb-0"
         />
         <div class="bg-smooth h-20 absolute bottom-0 w-full z-30" />
@@ -385,7 +154,7 @@
 
   <div class="p-4 sm:p-6 md:p-12 lg:p-16 md:w-1/2">
     <div class="mx-auto md:max-w-lg">
-      {#each questions as question, i}
+      {#each _questions as question, i}
         <div class="mb-12">
           <div class="mb-6 text-2xl sm:text-3xl font-black italic">
             {question.question}
@@ -393,7 +162,7 @@
           <div
             class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"
           >
-            {#each question.answers as answer, j}
+            {#each question.answers as [answer, j]}
               <button
                 class={`text-left p-2 sm:p-4 flex ${
                   question.answer === j ? "bg-black text-white" : "bg-white"
@@ -420,9 +189,9 @@
               }}>Birta niðurstöður</button
             >
           {:else if answeredCount > 0}
-            {answeredCount} / {questions.length}
+            {answeredCount} / {_questions.length}
           {:else}
-            {questions.length} spurningar
+            {_questions.length} spurningar
           {/if}
         </div>
       </div>
