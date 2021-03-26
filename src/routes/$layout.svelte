@@ -35,7 +35,7 @@
       bg: "bg-monza",
       youAre: "Þú ert vinstri krati ",
       youShould:
-        "Þú ættir að kjósa VG ef þú getur fyrirgefið þeim stjórnarsamstarfið við Sjálfstæðisflokkinn. Eða Samfylkinguna ef þú getur fyrirgefið þeim nýfrjálshyggjuna. Annars getur refsað þessum flokkum og kosið Sósíalistaflokkinn.",
+        "Þú ættir að kjósa VG ef þú getur fyrirgefið þeim stjórnarsamstarfið við Sjálfstæðisflokkinn. Eða Samfylkinguna ef þú getur fyrirgefið þeim nýfrjálshyggjuna. Annars getur þú refsað þessum flokkum og kosið Sósíalistaflokkinn.",
     },
     "midju-krati": {
       tag: "midju-krati",
@@ -339,7 +339,7 @@
             </a>
           </div>
           <div class="mt-10 text-xs">
-            <a href="/">Byrja upp á nýtt</a>
+            <a href="https://x2021.is/">Byrja upp á nýtt</a>
           </div>
         </div>
       </div>
