@@ -195,6 +195,17 @@
           {/if}
         </div>
       </div>
+      <div class="text-xs text-center mt-4 text-opacity-30 text-black">
+        Engum upplýsingum er safnað á þessari vefsíðu nema
+        <a class="underline" href="https://usefathom.com/compliance"
+          >ópersónugreinanlegum</a
+        >
+        heimsóknartölum. Síðan notar <strong>ekki</strong> vafrakökur. <br />
+        x2021.is eru nokkrir félagar með áhuga á stjórnmálum.
+        <a class="underline" href="https://github.com/jokull/sosialistar-quiz"
+          >GitHub</a
+        >
+      </div>
     </div>
   </div>
 </main>
