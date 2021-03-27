@@ -202,7 +202,7 @@
         >
         heimsóknartölum. Síðan notar <strong>ekki</strong> vafrakökur. <br />
         x2021.is eru nokkrir félagar með áhuga á stjórnmálum.
-        <a class="underline" href="https://github.com/jokull/sosialistar-quiz"
+        <a class="underline" href="https://github.com/jokull/stjornmala-quiz"
           >GitHub</a
         >
       </div>
