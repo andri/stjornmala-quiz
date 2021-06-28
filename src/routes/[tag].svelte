@@ -2,14 +2,12 @@
   export const prerender = true;
   export async function load({ page }) {
     const pageTags = [
-      "kommunisti",
-      "rottaekur-sosialisti",
-      "sosialisti",
-      "vinstri-krati",
-      "midju-krati",
-      "haegri-krati",
-      "kapitalisti",
-      "sotsvartur-kapitalisti",
+      "ther-mun-ekki-batna",
+      "hjarta-thitt-erkalt-og-hart",
+      "thu-ert-a-morkunum",
+      "thu-getur-losnad",
+      "laus-undan",
+      "laus-undan-allri",
     ];
 
     if (pageTags.indexOf(page.params.tag) === -1) {
@@ -17,6 +15,7 @@
     } else {
       return {};
     }
+    
   }
 </script>
 
@@ -26,10 +25,10 @@
 </script>
 
 <svelte:head>
-  <title>Ertu kommi, sósíalisti, krati eða kapítalisti?</title>
+  <title>Ertu illa farinn af nýfrjálshyggju?</title>
   <meta
     property="og:title"
-    content="Ertu kommi, sósíalisti, krati eða kapítalisti?"
+    content="Ertu illa farinn af nýfrjálshyggju?"
   />
   <meta property="og:url" content={`http://x2021.is/${params.tag}`} />
   <meta

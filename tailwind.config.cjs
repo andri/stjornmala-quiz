@@ -24,13 +24,16 @@ module.exports = {
 			backgroundImage: (theme) => ({
 				'monza-matisse':
 					'linear-gradient(90deg, rgba(214,15,14,1) 0%, rgba(214,15,14,1) 50%, rgba(19,115,160,1) 50%);',
+				'turquoise-matisse':
+					'linear-gradient(90deg, rgba(64,153,159,1) 0%, rgba(64,153,159,1) 50%, rgba(19,115,160,1) 50%);',
 				smooth: 'linear-gradient(to bottom, transparent, cubic-bezier(0.48, 0.3, 0.64, 1), black)'
 			}),
 			colors: {
 				citrane: '#FBF4E3',
 				monza: '#D60F0E',
 				matisse: '#1373A0',
-				plum: '#9F409A'
+				plum: '#9F409A',
+				turquoise: '#40999F',
 			},
 			lineHeight: {
 				comfortable: '1.5'

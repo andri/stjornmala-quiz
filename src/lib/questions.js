@@ -1,174 +1,162 @@
 export default [
   {
-    question: "Hvað finnst þér um einkarekin fyrirtæki?",
+    question: "1.",
     answers: [
-      "Þau eru hið illa",
-      "Stórfyrirtæki eru slæm, lítil fjölskyldufyrirtæki, smáfyrirtæki og einyrkjar sleppa",
-      "Sum fyrirtæki eru góð, önnur ekki",
-      "Einkarekin fyrirtæki eru grunnur alls",
+      "Það er mikilvægara að ná jöfnuði en ríkisbúskapnum en að láta undan kröfum allra.",
+      "Hið opinbera ætti að gera meira til að styðja hin fátæku jafnvel þótt það myndi leiða til halla á fjárlögum.",
     ],
     answer: null,
   },
   {
-    question: "Hvað fær þig til að fara í kröfugöngu?",
+    question: "2.",
     answers: [
-      "Krefjast þess að kapítalisminn verði brotinn niður",
-      "Krefjast hækkun lægstu launa",
-      "Krefjast jafnra launa kynjanna",
-      "Krefjast þess að áfengi sé selt í matvörubúðum",
+      "Ríkisrekstur er ætíð óskilvirkur og leiðir til sóunar á fé.",
+      "Innan ríkisins er mun meira af góðum rekstri en fólk áttar sig á.",
     ],
     answer: null,
   },
   {
-    question: "Ætti starfsfólk að eiga fulltrúa í stjórnum fyrirtækja?",
+    question: "3.",
     answers: [
-      "Fyrirtæki ættu að vera undir fullri stjórn starfsfólksins",
-      "Já, starfsfólk ætti í það minnsta að eiga tvo af fimm stjórnarmönnum",
-      "Tja, þetta er falleg hugmynd en myndi kannski ekki virka í öllum fyrirtækjum",
-      "Nei, aðeins hluthafar eiga að hafa fulltrúa í stjórn",
+      "Hin fátæku bera alltaf mesta ábyrgð á stöðu sinni, fólk getur bætt hag sig ef það er duglegt og útsjónarsamt.",
+      "Fordómar gagnvart fátækum, t.d. öryrkjum, valda því að vandi þessa fólks verður verri en ella.",
     ],
     answer: null,
   },
-  {
-    question: "Hvað finnst þér um verkalýðsfélög?",
-    answers: [
-      "Þau verða óþörf þegar alþýðan hefur náð völdum",
-      "Þau eru mikilvægustu baráttutæki alþýðunnar",
-      "Þau eru mikilvæg í kjaraviðræðum en ættu að láta kjörna fulltrúa um að marka stefnu fyrir ríkisvaldið",
-      "Tímaskekkja, hver starfsmaður á að semja sjálfur um kaup og kjör",
-    ],
-    answer: null,
-  },
-  {
-    question: "Hvernig sérðu heilbrigðiskerfið fyrir þér?",
-    answers: [
-      "Heilbrigðisþjónusta undir stjórn alþýðunnar",
-      "Gjaldfrjáls opinber heilbrigðisþjónusta",
-      "Hófleg gjaldtaka í blönduðu kerfi þar sem kostir opinbers rekstur og einkareksturs vinna saman",
-      "Einkarekin heilbrigðisfyrirtæki og tryggingafélög",
-    ],
-    answer: null,
-  },
-  {
-    question: "Nefndu dæmi um mistök sósíalismans.",
-    answers: [
-      "Alls staðar þar sem hann leiddi ekki til kommúnisma",
-      "Þegar hann gafst upp fyrir nýfrjálshyggjunni um 1980",
-      "Þar sem vernd starfsfólks er orðin svo mikil að fyrirtæki óttast að ráða fólk",
-      "Venesúela",
-    ],
-    answer: null,
-  },
-  {
-    question:
-      "Nefndu fyrirbrigði sem fólk fattar ekki að er sósíalísk í grunninn.",
-    answers: [
-      "Kirkjan",
-      "Þjóðvegir, holræsi",
-      "Heilbrigðiskerfið, almannatryggingar",
-      "Tekjuskattur",
-    ],
-    answer: null,
-  },
-  {
-    question: "Hvað finnst þér vera vanmetnustu hetjur Íslandssögunnar",
-    answers: [
-      "Þrælarnir sem drápu Hjörleif",
-      "Verkafólkið sem stofnaði fyrstu verkalýðsfélögin",
-      "Sigríður í Brattholti",
-      "Björgólfur Thor Björgólfsson",
-    ],
-    answer: null,
-  },
-  {
-    question: "Hvað keyrir áfram hagkerfið?",
-    answers: [
-      "Verkafólk",
-      "Verkafólk, hið opinbera og fyrirtæki",
-      "Fyrirtæki og ríkisvaldið",
-      "Fyrirtæki",
-    ],
-    answer: null,
-  },
-  {
-    question: "Hvað er góð ástæða fyrir stríði?",
-    answers: [
-      "Hjálpa alþýðunni við að varpa af sér oki valdastéttanna",
-      "Verjast innrás",
-      "Aðstoða lönd sem ráðist er á",
-      "Ráðast á lönd sem eiga auðlindir sem þig vantar",
-    ],
-    answer: null,
-  },
-  {
-    question: "Hver ættu lágmarks mánaðarlaun að vera?",
-    answers: [
-      "Um 750 þús. kr.",
-      "Um 450 þús. kr.",
-      "Um 350 þús. kr.",
-      "Það á ekki að vera neitt lágmark, laun ráðast á markaði",
-    ],
-    answer: null,
-  },
-  {
-    question: "Hver er mesta pólitíska ógnin í dag?",
-    answers: [
-      "Kapítalisminn",
-      "Nýfrjálshyggjan",
-      "Popúlisminn",
-      "Sósíalisminn",
-    ],
-    answer: null,
-  },
-  {
-    question: "Hverjum ættir þú aldrei að treysta?",
-    answers: ["Fyrirtækjum", "Fasistum", "Kommúnistum", "Góða fólkinu"],
-    answer: null,
-  },
-  {
-    question: "Hver er megin ástæðan fyrir vaxandi ójöfnuði?",
-    answers: [
-      "Kapítalísk fyrirtæki",
-      "Veiking verkalýðsfélaga",
-      "Róbótavæðing",
-      "Vaxandi leti",
-    ],
-    answer: null,
-  },
-  {
-    question: "Ef þú mættir setja lög á morgun, hver væru þau?",
-    answers: [
-      "Leggja niður ríkisvaldið",
-      "Banna launagreiðslur sem væru meira en tvöfalt hærri en lágmarkslaun",
-      "Setja á kolefnisskatt",
-      "Loka Samkeppniseftirlitinu",
-    ],
-    answer: null,
-  },
-  {
-    question: "Hvernig bíl langar þig í?",
-    answers: [
-      "Engan, ég hef ekki trú á bílum",
-      "Almennilegan strætó",
-      "Volvo twin-jeppa",
-      "Tesla. Og Land Cruiser ef ég þarf að fara á fjöll",
-    ],
-    answer: null,
-  },
-  {
-    question: "Ef þú leiddir ríkisstjórn hvert væri helsta markmið hennar?",
-    answers: [
-      "Segja af sér til að flýta fyrir endalokum kapitalismans",
-      "Byggja upp velferðarkerfi og innviði samfélagsins",
-      "Ráðast að loftslagsvánni",
-      "Undirbúa nýlendu á Mars",
-    ],
-    answer: null,
-  },
-  {
-    question:
-      "Hvað finnst þér eðlilegur hátekjuskattur á mánaðartekjur yfir 10 milljónir?",
-    answers: ["100% – enginn á að hafa svo háar tekjur", "90%", "50%", "22%"],
-    answer: null,
-  },
+  // {
+  //   question: "4.",
+  //   answers: [
+  //     "Eftirlit og reglugerðar gera vanalega meiri skaða en gagn.",
+  //     "Opinbert eftirlit og lagareglur eru nauðsynlegar til að vernda almannahagsmuni.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "5.",
+  //   answers: [
+  //     "Mikill hagnaður er merki um góðan rekstur.",
+  //     "Hagnaður margra fyrirtækja er alltof mikill.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "6.",
+  //   answers: [
+  //     "Lög, reglugerðir og alþjóðasamningar til verndar umhverfinu geta dregið úr sköpun starfa.",
+  //     "Kostirnir við að þrengja að þeim sem mega eru alltaf fleiri en gallarnir.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "7.",
+  //   answers: [
+  //     "Innflytjendur sem vinna styrkja samfélagið en það eru alltof margir sem koma hingað til að leggjast upp á velferðarkerfið.",
+  //     "Innflytjendur styrkja alltaf samfélagið.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "8.",
+  //   answers: [
+  //     "Hin ríku eru rík vegna þess að þau hafa unnið fyrir því.",
+  //     "Auður og völd leggjast í ættir og eru oftar merki um inn í hvaða fjölskyldur fólk fæðist en verðleika einstaklinganna.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "9.",
+  //   answers: [
+  //     "Þeir úrgerðarmenn sem fá úthlutað mestum kvóta eru þeir sem hafa staðið sig best. Það er því gott að mest af kvótanum sé hjá þeim.",
+  //     "Kvótakerfið er ósanngjarnt og færir sífellt meira af kvótanum til þeirra sem hafa mest fyrir.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "10.",
+  //   answers: [
+  //     "Allt of margir komast upp með að leggja lítið til samfélagsins vegna þess að það er of auðvelt að lifa góðu lífi á bótum.",
+  //     "Fátækt fólk lifir allt of erfiðu lífi vegna þess að stuðningur samfélagsins er of veikur.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "11.",
+  //   answers: [
+  //     "Efnahagskerfið er í grunninn réttlátt, allir sem vilja geta nýtt tækifærin til að bæta stöðu sína.",
+  //     "Efnahagskerfið er ósanngjarnt og hyglir um of hagsmunum hinna fáu.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "12.",
+  //   answers: [
+  //     "Þrátt fyrir nokkra sigra er enn langt í land þar til konur fái jafnrétti á við karla á svo mörgum sviðum.",
+  //     "Í dag er engin munur á réttindum kynjanna, konur hafa náð jafnrétti í öllum helstu málum.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "13.",
+  //   answers: [
+  //     "Ísland er stéttlaust land.",
+  //     "Stéttaskipting er mikið mein í samfélaginu.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "14.",
+  //   answers: [
+  //     "Fólk sem er til í að leggja á sig vinnu og axla ábyrgð uppsker eins og það sáir.",
+  //     "Mikil vinna og einbeiting er engin tryggingin fyrir efnahagslegri velsæld.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "15.",
+  //   answers: [
+  //     "Verkalýðsfélögin eru vörn fólks gagnvart miklu valdi fyrirtækjaeigenda yfir starfsfólkinu.",
+  //     "Verkalýðsfélögin hafa alltof mikil völd, það er best að fólki semji sjálft um eigin kjör.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "16.",
+  //   answers: [
+  //     "Innflytjendur sem hingað flytja hafa sömu möguleika og innfæddir til að koma undir sig fótunum.",
+  //     "Fordómar og mismunun veldur því að það er mun erfiðara fyrir innflytjendur en innfædda að komast áfram í starfi eða taka virkan þátt í stjórnmálum eða öðru félagsstarfi.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "17.",
+  //   answers: [
+  //     "Samfélag er aðeins safn af einstaklingum. Það geta því ekki verið til nein samfélagsleg markmið, aðeins vilji og væntingar einstaklinganna.",
+  //     "Við eigum samfélagið saman og getum byggt upp gott og réttlátt samfélag saman.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "18.",
+  //   answers: [
+  //     "Hin fátæku bera alltaf mesta ábyrgð á stöðu sinni, fólk getur bætt hag sig ef það er duglegt og útsjónarsamt.",
+  //     "Fordómar gagnvart fátækum, t.d. öryrkjum, valda því að vandi þessa fólks verður verri en ella.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "19.",
+  //   answers: [
+  //     "Flöt skattprósenta er réttlát, skatturinn á ekki að refsa þeim sem standa sig betur og afla meiri tekna eða eiga meiri eignir.",
+  //     "Skattkerfið á að jafna tekjur fólks, hin betur settu eiga að borga hlutfallslega meira en hin sem hafa minna á milli handanna.",
+  //   ],
+  //   answer: null,
+  // },
+  // {
+  //   question: "20.",
+  //   answers: [
+  //     "Sterk fyrirtæki eru undirstaða samfélagsins og forsenda framþróunar þess.",
+  //     "Öflugt lýðræði og virk þátttaka almennings er grundvöllur góðs samfélags.",
+  //   ],
+  //   answer: null,
+  // },
 ];
