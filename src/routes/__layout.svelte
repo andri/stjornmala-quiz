@@ -102,13 +102,13 @@
           </div>
           <div class="mt-6">
             <a
-              href={`https://www.facebook.com/sharer/sharer.php?u=http://x2021.is/${result.tag}`}
-              class={`px-4 py-4 bg-monza rounded-full`}>
+              href={`https://www.facebook.com/sharer/sharer.php?u=http://nyfrjalshyggja.x2021.is/${result.tag}`}
+              class={`px-4 py-4 bg-monza rounded-full italic uppercase font-black`}>
               Deila á Facebook
             </a>
           </div>
           <div class="mt-10 text-xs">
-            <a href="https://x2021.is/">Byrja upp á nýtt</a>
+            <a href="https://nyfrjalshyggja.x2021.is/">Byrja upp á nýtt</a>s
           </div>
         </div>
       </div>
@@ -175,30 +175,27 @@
       {/each}
 
       <div class="sticky bottom-8 my-8 text-white text-center">
-        <div
-          class="px-6 py-4 rounded-full font-black bg-monza shadow max-w-min whitespace-nowrap mx-auto"
-        >
+        
           {#if score !== false}
-            <button
+            <button class="px-6 py-4 rounded-full font-black bg-monza shadow max-w-min whitespace-nowrap mx-auto italic font-black uppercase"
               on:click={() => {
                 showResult = true;
               }}>Birta niðurstöður</button
             >
           {:else if answeredCount > 0}
-            {answeredCount} / {_questions.length}
+            <div class="px-6 py-4 rounded-full font-black bg-turquoise shadow max-w-min whitespace-nowrap mx-auto">{answeredCount} / {_questions.length}</div>
           {:else}
-            {_questions.length} spurningar
+          <div class="px-6 py-4 rounded-full font-black bg-black shadow max-w-min whitespace-nowrap mx-auto">{_questions.length} spurningar</div>
           {/if}
-        </div>
+      
       </div>
       <div class="text-xs text-center mt-4 text-opacity-30 text-black">
         Engum upplýsingum er safnað á þessari vefsíðu nema
         <a class="underline" href="https://usefathom.com/compliance"
           >ópersónugreinanlegum</a
         >
-        heimsóknartölum. Síðan notar <strong>ekki</strong> vafrakökur. <br />
-        x2021.is eru nokkrir félagar með áhuga á stjórnmálum.
-        <a class="underline" href="https://github.com/jokull/stjornmala-quiz"
+        heimsóknartölum. Síðan notar <strong>ekki</strong> vafrakökur. Að x2021.is standa nokkrir félagar með áhuga á stjórnmálum.
+        <a class="underline" href="https://github.com/andri/stjornmala-quiz"
           >GitHub</a
         >
       </div>
