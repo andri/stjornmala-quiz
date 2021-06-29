@@ -206,8 +206,10 @@
   </div>
 </main>
 
+
+
 <div class="hidden">
-  {#each ["kommunisti", "rottaekur-sosialisti", "sosialisti", "vinstri-krati", "midju-krati", "haegri-krati", "kapitalisti", "sotsvartur-kapitalisti"] as tag}
+  {#each ["ther-mun-ekki-batna", "hjarta-thitt-erkalt-og-hart", "thu-ert-a-morkunum", "thu-getur-losnad", "laus-undan", "laus-undan-allri"] as tag}
     <a href={`/${tag}`}>{tag}</a>
   {/each}
 </div>
