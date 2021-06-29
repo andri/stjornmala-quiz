@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://use.typekit.net" />
     <link rel="stylesheet" href="https://use.typekit.net/bql6uus.css" />
-    <title>Ertu kommi, sósíalisti, krati eða kapítalisti?</title><meta property="og:title" content="Ertu kommi, sósíalisti, krati eða kapítalisti?" data-svelte="svelte-1tcp677"><meta property="og:url" content="http://x2021.is/" data-svelte="svelte-1tcp677"><meta property="og:image" content="http://x2021.is/share.png" data-svelte="svelte-1tcp677">
+    <title>Ertu illa farinn af nýfrjálshyggju?</title><meta property="og:title" content="Ertu illa farinn af nýfrjálshyggju?" data-svelte="svelte-sirylw"><meta property="og:url" content="http://x2021.is/thu-ert-a-morkunum" data-svelte="svelte-sirylw"><meta property="og:image" content="http://x2021.is/share/thu-ert-a-morkunum.png" data-svelte="svelte-sirylw">
 
 		
 
 		<link rel="modulepreload" href="/./_app/start-4219981d.js">
 		<link rel="modulepreload" href="/./_app/chunks/vendor-b5428fc9.js">
 		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-d20f8d64.js">
-		<link rel="modulepreload" href="/./_app/pages/index.svelte-c422a51a.js">
+		<link rel="modulepreload" href="/./_app/pages/[tag].svelte-fa9eb27f.js">
 		<link rel="stylesheet" href="/./_app/assets/start-b97461fb.css">
 		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-90e033ef.css">
 
@@ -31,13 +31,13 @@
 					error: null,
 					nodes: [
 						import("/./_app/pages/__layout.svelte-d20f8d64.js"),
-						import("/./_app/pages/index.svelte-c422a51a.js")
+						import("/./_app/pages/[tag].svelte-fa9eb27f.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
-						path: "/",
+						path: "/thu-ert-a-morkunum",
 						query: new URLSearchParams(""),
-						params: {}
+						params: {"tag":"thu-ert-a-morkunum"}
 					}
 				}
 			});
@@ -75,16 +75,16 @@
               </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Eftirlit og reglugerðar gera vanalega meiri skaða en gagn.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">5.</div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Hagnaður margra fyrirtækja er alltof mikill.</div>
-              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Mikill hagnaður er merki um góðan rekstur.</div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Mikill hagnaður er merki um góðan rekstur.</div>
+              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Hagnaður margra fyrirtækja er alltof mikill.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">6.</div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Kostirnir við að þrengja að þeim sem mega eru alltaf fleiri en gallarnir.</div>
               </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Lög, reglugerðir og alþjóðasamningar til verndar umhverfinu geta dregið úr sköpun starfa.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">7.</div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Innflytjendur styrkja alltaf samfélagið.</div>
-              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Innflytjendur sem vinna styrkja samfélagið en það eru alltof margir sem koma hingað til að leggjast upp á velferðarkerfið.</div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Innflytjendur sem vinna styrkja samfélagið en það eru alltof margir sem koma hingað til að leggjast upp á velferðarkerfið.</div>
+              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Innflytjendur styrkja alltaf samfélagið.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">8.</div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Auður og völd leggjast í ættir og eru oftar merki um inn í hvaða fjölskyldur fólk fæðist en verðleika einstaklinganna.</div>
@@ -95,12 +95,12 @@
               </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Þeir úrgerðarmenn sem fá úthlutað mestum kvóta eru þeir sem hafa staðið sig best. Það er því gott að mest af kvótanum sé hjá þeim.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">10.</div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Allt of margir komast upp með að leggja lítið til samfélagsins vegna þess að það er of auðvelt að lifa góðu lífi á bótum.</div>
-              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Fátækt fólk lifir allt of erfiðu lífi vegna þess að stuðningur samfélagsins er of veikur.</div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Fátækt fólk lifir allt of erfiðu lífi vegna þess að stuðningur samfélagsins er of veikur.</div>
+              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Allt of margir komast upp með að leggja lítið til samfélagsins vegna þess að það er of auðvelt að lifa góðu lífi á bótum.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">11.</div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Efnahagskerfið er ósanngjarnt og hyglir um of hagsmunum hinna fáu.</div>
-              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Efnahagskerfið er í grunninn réttlátt, allir sem vilja geta nýtt tækifærin til að bæta stöðu sína.</div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Efnahagskerfið er í grunninn réttlátt, allir sem vilja geta nýtt tækifærin til að bæta stöðu sína.</div>
+              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Efnahagskerfið er ósanngjarnt og hyglir um of hagsmunum hinna fáu.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">12.</div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Í dag er engin munur á réttindum kynjanna, konur hafa náð jafnrétti í öllum helstu málum.</div>
@@ -111,24 +111,24 @@
               </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Ísland er stéttlaust land.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">14.</div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Mikil vinna og einbeiting er engin tryggingin fyrir efnahagslegri velsæld.</div>
-              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Fólk sem er til í að leggja á sig vinnu og axla ábyrgð uppsker eins og það sáir.</div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Fólk sem er til í að leggja á sig vinnu og axla ábyrgð uppsker eins og það sáir.</div>
+              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Mikil vinna og einbeiting er engin tryggingin fyrir efnahagslegri velsæld.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">15.</div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Verkalýðsfélögin eru vörn fólks gagnvart miklu valdi fyrirtækjaeigenda yfir starfsfólkinu.</div>
-              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Verkalýðsfélögin hafa alltof mikil völd, það er best að fólki semji sjálft um eigin kjör.</div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Verkalýðsfélögin hafa alltof mikil völd, það er best að fólki semji sjálft um eigin kjör.</div>
+              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Verkalýðsfélögin eru vörn fólks gagnvart miklu valdi fyrirtækjaeigenda yfir starfsfólkinu.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">16.</div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Fordómar og mismunun veldur því að það er mun erfiðara fyrir innflytjendur en innfædda að komast áfram í starfi eða taka virkan þátt í stjórnmálum eða öðru félagsstarfi.</div>
               </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Innflytjendur sem hingað flytja hafa sömu möguleika og innfæddir til að koma undir sig fótunum.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">17.</div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Samfélag er aðeins safn af einstaklingum. Það geta því ekki verið til nein samfélagsleg markmið, aðeins vilji og væntingar einstaklinganna.</div>
-              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Við eigum samfélagið saman og getum byggt upp gott og réttlátt samfélag saman.</div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Við eigum samfélagið saman og getum byggt upp gott og réttlátt samfélag saman.</div>
+              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Samfélag er aðeins safn af einstaklingum. Það geta því ekki verið til nein samfélagsleg markmið, aðeins vilji og væntingar einstaklinganna.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">18.</div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Hin fátæku bera alltaf mesta ábyrgð á stöðu sinni, fólk getur bætt hag sig ef það er duglegt og útsjónarsamt.</div>
-              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Fordómar gagnvart fátækum, t.d. öryrkjum, valda því að vandi þessa fólks verður verri en ella.</div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Fordómar gagnvart fátækum, t.d. öryrkjum, valda því að vandi þessa fólks verður verri en ella.</div>
+              </button><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Hin fátæku bera alltaf mesta ábyrgð á stöðu sinni, fólk getur bætt hag sig ef það er duglegt og útsjónarsamt.</div>
               </button></div>
         </div><div class="mb-12"><div class="mb-6 text-2xl sm:text-3xl font-black italic">19.</div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-1 bg-citrane shadow-lg"><button class="text-left p-2 sm:p-4 flex bg-white"><div class="lg:text-2x">Flöt skattprósenta er réttlát, skatturinn á ekki að refsa þeim sem standa sig betur og afla meiri tekna eða eiga meiri eignir.</div>
