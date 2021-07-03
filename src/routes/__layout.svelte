@@ -96,19 +96,19 @@
             <span class="relative px-3 z-50">{scoreround}%</span>
           </span>
         </h1>
-        <div class="text-center max-w-md px-8 mx-auto mt-6">
-          <div class="text-center max-w-md px-8 mx-auto mt-6">
+        <div class="text-center max-w-xl px-8 mx-auto mt-6">
+          <div class="text-center max-w-xl px-8 mx-auto mt-6">
             {result["youAre"]}
           </div>
-          <div class="mt-6">
+          <div class="mt-12">
             <a
               href={`https://www.facebook.com/sharer/sharer.php?u=http://nyfrjalshyggja.x2021.is/${result.tag}`}
               class={`px-4 py-4 bg-monza rounded-full italic uppercase font-black`}>
               Deila á Facebook
             </a>
           </div>
-          <div class="mt-10 text-xs">
-            <a href="https://nyfrjalshyggja.x2021.is/">Byrja upp á nýtt</a>s
+          <div class="mt-8 italic">
+            <a href="https://nyfrjalshyggja.x2021.is/" class="text-opacity-50">Byrja upp á nýtt</a>
           </div>
         </div>
       </div>
@@ -189,7 +189,7 @@
           {/if}
       
       </div>
-      <div class="text-xs text-center mt-4 text-opacity-30 text-black">
+      <div class="text-sm text-center mt-4 text-opacity-30 text-black">
         Engum upplýsingum er safnað á þessari vefsíðu nema
         <a class="underline" href="https://usefathom.com/compliance"
           >ópersónugreinanlegum</a
