@@ -4,6 +4,6 @@
     property="og:title"
     content="Ertu kommi, sósíalisti, krati eða kapítalisti?"
   />
-  <meta property="og:url" content={`http://x2021.is/`} />
-  <meta property="og:image" content={`http://x2021.is/share.png`} />
+  <meta property="og:url" content={`https://nyfrjalshyggja.x2021.is/`} />
+  <meta property="og:image" content={`https://nyfrjalshyggja.x2021.is/share.png`} />
 </svelte:head>
