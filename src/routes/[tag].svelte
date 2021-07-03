@@ -30,9 +30,9 @@
     property="og:title"
     content="Ertu illa farinn af nýfrjálshyggju?"
   />
-  <meta property="og:url" content={`http://x2021.is/${params.tag}`} />
+  <meta property="og:url" content={`https://x2021.is/${params.tag}`} />
   <meta
     property="og:image"
-    content={`http://x2021.is/share/${params.tag}.png`}
+    content={`https://x2021.is/share/${params.tag}.png`}
   />
 </svelte:head>
