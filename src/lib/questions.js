@@ -91,7 +91,7 @@ export default [
     question: "12.",
     answers: [
       "Í dag er engin munur á réttindum kynjanna, konur hafa náð jafnrétti í öllum helstu málum.",
-      "Þrátt fyrir nokkra sigra er enn langt í land þar til konur fái jafnrétti á við karla á svo mörgum sviðum.",
+      "Þrátt fyrir nokkra sigra er enn langt í land þar til konur fái jafnrétti á við karla.",
     ],
     answer: null,
   },
@@ -131,7 +131,7 @@ export default [
     question: "17.",
     answers: [
       "Samfélag er aðeins safn af einstaklingum. Það geta því ekki verið til nein samfélagsleg markmið, aðeins vilji og væntingar einstaklinganna.",
-      "Við eigum samfélagið saman og getum byggt upp gott og réttlátt samfélag saman.",
+      "Við eigum samfélagið saman og getum byggt upp gott og réttlátt samfélag í sameiningu.",
     ],
     answer: null,
   },
