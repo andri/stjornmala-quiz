@@ -33,6 +33,6 @@
   <meta property="og:url" content={`https://nyfrjalshyggja.x2021.is/${params.tag}`} />
   <meta
     property="og:image"
-    content={`https://nyfrjalshyggja.x2021.is/share/${params.tag}.png`}
+    content={`https://nyfrjalshyggja.x2021.is/share/${params.tag}.png?v=2`}
   />
 </svelte:head>
