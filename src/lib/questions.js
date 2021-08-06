@@ -114,8 +114,8 @@ export default [
   {
     question: "15.",
     answers: [
-      "Verkalýðsfélögin eru vörn fólks gagnvart miklu valdi fyrirtækjaeigenda yfir starfsfólkinu.",
       "Verkalýðsfélögin hafa alltof mikil völd, það er best að fólki semji sjálft um eigin kjör.",
+      "Verkalýðsfélögin eru vörn fólks gagnvart miklu valdi fyrirtækjaeigenda yfir starfsfólkinu.",
     ],
     answer: null,
   },
