@@ -2,7 +2,7 @@ export default [
   {
     question: "1.",
     answers: [
-      "Það er mikilvægara að ná jöfnuði en ríkisbúskapnum en að láta undan kröfum allra.",
+      "Það er mikilvægara að ná jöfnuði í ríkisbúskapnum en að láta undan kröfum allra.",
       "Hið opinbera ætti að gera meira til að styðja hin fátæku jafnvel þótt það myndi leiða til halla á fjárlögum.",
     ],
     answer: null,
@@ -18,7 +18,7 @@ export default [
   {
     question: "3.",
     answers: [
-      "Hin fátæku bera alltaf mesta ábyrgð á stöðu sinni, fólk getur bætt hag sig ef það er duglegt og útsjónarsamt.",
+      "Hin fátæku bera alltaf mesta ábyrgð á stöðu sinni, fólk getur bætt hag sinn ef það er duglegt og útsjónarsamt.",
       "Fordómar gagnvart fátækum, t.d. öryrkjum, valda því að vandi þessa fólks verður verri en ella.",
     ],
     answer: null,
@@ -59,7 +59,7 @@ export default [
     question: "8.",
     answers: [
       "Hin ríku eru rík vegna þess að þau hafa unnið fyrir því.",
-      "Auður og völd leggjast í ættir og eru oftar merki um inn í hvaða fjölskyldur fólk fæðist en verðleika einstaklinganna.",
+      "Auður og völd leggjast í ættir og eru oftar merki um inn í hvaða fjölskyldu fólk fæðist fremur en um verðleika einstaklinga.",
     ],
     answer: null,
   },
@@ -90,8 +90,8 @@ export default [
   {
     question: "12.",
     answers: [
-      "Þrátt fyrir nokkra sigra er enn langt í land þar til konur fái jafnrétti á við karla á svo mörgum sviðum.",
       "Í dag er engin munur á réttindum kynjanna, konur hafa náð jafnrétti í öllum helstu málum.",
+      "Þrátt fyrir nokkra sigra er enn langt í land þar til konur fái jafnrétti á við karla á svo mörgum sviðum.",
     ],
     answer: null,
   },
@@ -138,7 +138,7 @@ export default [
   {
     question: "18.",
     answers: [
-      "Hin fátæku bera alltaf mesta ábyrgð á stöðu sinni, fólk getur bætt hag sig ef það er duglegt og útsjónarsamt.",
+      "Hin fátæku bera alltaf mesta ábyrgð á stöðu sinni, fólk getur bætt hag sinn ef það er duglegt og útsjónarsamt.",
       "Fordómar gagnvart fátækum, t.d. öryrkjum, valda því að vandi þessa fólks verður verri en ella.",
     ],
     answer: null,
